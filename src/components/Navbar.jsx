@@ -74,7 +74,7 @@ const Navbar = () => {
                     </SearchContainer>
                 </Left>
                 <Center>
-                    <Logo>Kevy.</Logo>
+                    <Logo>Kevy</Logo>
                 </Center>
                 <Right>
 
