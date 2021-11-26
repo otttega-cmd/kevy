@@ -1,6 +1,8 @@
 import { FavoriteBorderOutlined, SearchOutlined, ShoppingCartOutlined } from "@material-ui/icons"
 import styled from "styled-components"
 
+import { mobile } from "../responsive"
+
 
 const Info = styled.div`
     opacity: 0;
@@ -67,7 +69,7 @@ const Icon = styled.div`
 
 const Product = ({item}) => {
     return (
-        <Container>
+    <Container>
             <Circle />
             <Image src={item.img} />
             <Info>
@@ -83,7 +85,7 @@ const Product = ({item}) => {
                     <FavoriteBorderOutlined/>
                 </Icon>
             </Info>
-        </Container>
+    </Container>
     );
 }
 

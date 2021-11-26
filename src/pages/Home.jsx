@@ -11,7 +11,7 @@ import Footer from '../components/Footer'
 
 
 
-export const Home = () => {
+ const Home = () => {
     return (
         <div>
             <Announcement />
@@ -24,4 +24,6 @@ export const Home = () => {
         </div>
         
     )
-}
+};
+
+export default Home;
